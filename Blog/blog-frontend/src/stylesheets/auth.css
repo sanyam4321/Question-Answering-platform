@@ -1,0 +1,75 @@
+.auth{
+    background-color: black;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.auth-heading{
+    color: yellow;
+    font-family: "Jaro", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.auth-intro{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0.25rem 0rem;
+}
+.auth-container{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-content: center;
+    justify-content: start;
+    padding: 1.5rem 0;
+}
+.login-section{
+    font-family: "Roboto", sans-serif;
+}
+.login-section h2{
+    margin: 0.5rem 0;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.login-input input{
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.login-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.login-btn button{
+    cursor: pointer;
+}
+.login-btn .login-btn-btn{
+    padding: 0.75rem 0.75rem;
+    background-color: #287dff;
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.login-btn .login-btn-btn:active{
+    background-color: #0065ff;
+}
+.login-btn .signup-btn{
+    background-color: black;
+    border: none;
+    color: white;
+}
+.login-btn .signup-btn:active{
+    color: #287dff;
+}
